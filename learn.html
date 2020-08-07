@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>covid-19 traker</title>
+    <style>
+        .button {
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        
+        .button1 {background-color: #4CAF50;} /* Green */
+       
+        </style>
 </head>
 <body>
+    <div>
+    <h1>
+        COVID-19 TRACKER.
+    </h1>
+    <form id="myform">
+        <input type="text" id ="country" placeholder="country_name" required>
+        <input type='submit' value="submit">
+
+    
+    
+    <h2 id="confirmed"> Total confirmed</h2>
+    <h2 id="recovered">total recovered</h2>
+    <h3 id ="deaths">total deaths</h3>
+</form> 
+    </div>
+
     <p id="data">
+
         
     </p>
     <script src="learn.js">
